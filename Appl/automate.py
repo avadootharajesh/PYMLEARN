@@ -46,6 +46,6 @@ for i, project in enumerate(project_names, 1):
         py_file.write(f"# {file_base}.py\n")
 
     # Create .txt file
-    txt_path = os.path.join(dir_path, f"{file_base}.txt")
+    txt_path = os.path.join(dir_path, f"{file_base} notes.txt")
     with open(txt_path, "w") as txt_file:
         txt_file.write(f"{file_base} notes\n")

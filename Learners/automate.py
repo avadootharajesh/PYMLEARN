@@ -47,6 +47,6 @@ for i, heading in enumerate(headings, 1):
     with open(pypath, "w") as py_file:
         py_file.write(f"# {filenamebase}.py\n")
         
-    txtpath = os.path.join(dir_path, f"{filenamebase}.txt")
+    txtpath = os.path.join(dir_path, f"{filenamebase} notes.txt")
     with open(txtpath, "w") as txt_file:
         txt_file.write(f"# {filenamebase} notes.txt\n")

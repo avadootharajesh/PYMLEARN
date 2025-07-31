@@ -1,1 +1,72 @@
 # Version_Control notes.txt
+📌 What is Version Control?
+Version Control is the practice of tracking and managing changes to software code, datasets, and documents over time.
+
+🔍 Why Use Version Control?
+Collaboration: Multiple people can work on the same project without conflicts
+
+History Tracking: See what changed, when, and by whom
+
+Branching & Merging: Develop features in isolation, then combine
+
+Revert Changes: Roll back to previous working versions
+
+Reproducibility: Recreate past experiments and results
+
+⚙️ Common Version Control Systems
+| Tool    | Description                                | Usage                                         |
+| ------- | ------------------------------------------ | --------------------------------------------- |
+| **Git** | Distributed version control system         | Most popular; works locally and remotely      |
+| **SVN** | Centralized version control system         | Less common nowadays                          |
+| **DVC** | Data Version Control for datasets & models | Version control for large data & ML artifacts |
+
+
+🔧 Git Basics
+Repository (repo): Project directory tracked by Git
+
+Commit: Snapshot of changes
+
+Branch: Independent line of development
+
+Merge: Combine changes from different branches
+
+Remote: Online repo (GitHub, GitLab, Bitbucket) for collaboration
+
+🧰 Git Workflow
+Initialize repo: git init
+
+Stage changes: git add <file>
+
+Commit: git commit -m "message"
+
+Create branch: git checkout -b feature-branch
+
+Push to remote: git push origin branch-name
+
+Pull changes: git pull
+
+Merge branches: git merge branch-name
+
+📦 Version Control in Data Science
+Version code with Git
+
+Use .gitignore to exclude large data files
+
+Use DVC or Git LFS for dataset/model versioning
+
+Document experiments and environment using tools like MLflow or Weights & Biases
+
+How to use?
+Run this script to quickly perform basic Git commands interactively.
+
+Basic Git Commands to Know
+git init                     # Initialize new repo
+git status                   # Show changed files
+git add filename             # Stage file for commit
+git commit -m "message"     # Commit staged changes
+git log                     # Show commit history
+git branch                  # List branches
+git checkout -b new_branch  # Create & switch to new branch
+git merge branch_name       # Merge branch into current
+git push                    # Push changes to remote
+git pull                    # Pull changes from remote

@@ -1,1 +1,29 @@
 Credit_Card_Fraud_Detection_System notes
+📌 What is Credit Card Fraud Detection?
+Automated detection of unauthorized or fraudulent credit card transactions
+
+Protects customers and financial institutions from losses
+
+🔍 How It Works
+Uses transaction data: amount, location, time, merchant, etc.
+
+Employs supervised or unsupervised learning to identify anomalies
+
+Common challenges include extreme class imbalance and evolving fraud tactics
+
+⚙️ Typical Workflow
+Data Collection: Historical transaction records labeled as fraud or genuine
+
+Data Preprocessing: Handle missing data, normalize features
+
+Feature Engineering: Time-based features, transaction frequency, amount patterns
+
+Model Training: Logistic Regression, Random Forest, XGBoost, Isolation Forest (for anomaly detection)
+
+Evaluation: Precision, recall, F1-score, AUC-ROC, focusing on catching fraud while minimizing false alarms
+
+Deployment: Real-time scoring systems integrated with transaction processing
+
+🧰 Common Datasets
+Kaggle Credit Card Fraud Dataset (highly imbalanced)
+

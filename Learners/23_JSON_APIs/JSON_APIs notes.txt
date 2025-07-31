@@ -1,1 +1,22 @@
 # JSON_APIs notes.txt
+📌 What is a JSON API?
+An API that communicates data formatted as JSON (JavaScript Object Notation)
+
+Lightweight, human-readable, widely used in web & mobile apps
+
+REST APIs often use JSON for request/response payloads
+
+🔍 Key Concepts
+Concept	Description
+Endpoint	URL path clients send HTTP requests to
+HTTP Methods	GET (read), POST (create), PUT/PATCH (update), DELETE (remove)
+Request Body	JSON payload sent by client (usually in POST/PUT)
+Response	JSON data sent back by server
+Status Codes	Indicate success (200), created (201), error (4xx/5xx)
+
+⚙️ Why Use JSON APIs?
+Client-agnostic communication (web, mobile, IoT)
+
+Easy to parse and generate JSON in most languages
+
+Facilitates frontend-backend separation

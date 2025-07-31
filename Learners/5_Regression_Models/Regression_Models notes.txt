@@ -1,1 +1,52 @@
 # Regression_Models notes.txt
+📌 What is Regression?
+Regression is a type of supervised learning used to predict a continuous numerical value based on input features.
+
+🎯 Common Use Cases
+Predicting house prices
+
+Estimating sales revenue
+
+Forecasting stock prices
+
+Modeling medical costs
+
+🧠 Popular Regression Algorithms
+Algorithm	Description
+Linear Regression	Basic straight-line fit using least squares
+Ridge & Lasso Regression	Regularized versions to prevent overfitting
+Polynomial Regression	Captures non-linear relationships
+Decision Tree Regressor	Tree splits for numerical prediction
+Random Forest Regressor	Ensemble of regression trees
+Gradient Boosting / XGBoost	High-performance boosting models
+K-Nearest Neighbors	Predicts based on average of nearest neighbors
+Support Vector Regressor (SVR)	Uses margins to predict continuous values
+
+⚙️ Key Steps in Regression
+Load and explore the data
+
+Handle missing values and outliers
+
+Feature scaling if needed
+
+Train/test split
+
+Model fitting
+
+Evaluate performance
+
+📈 Evaluation Metrics
+Metric	Description
+Mean Absolute Error (MAE)	Average of absolute errors
+Mean Squared Error (MSE)	Average of squared errors
+Root Mean Squared Error (RMSE)	Square root of MSE
+R² Score (R-Squared)	Variance explained by the model
+
+📊 Visualization Tools
+Scatter plots (predicted vs actual)
+
+Residual plots
+
+Regression lines
+
+Error distribution

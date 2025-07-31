@@ -1,1 +1,53 @@
 Personalized_Diet_Recommendation_System notes
+📌 What is a Personalized Diet Recommendation System?
+A system that provides tailored diet plans based on an individual’s health profile, preferences, and goals
+
+Helps users improve health outcomes such as weight loss, muscle gain, or managing medical conditions
+
+Factors considered: age, gender, weight, height, activity level, dietary preferences/allergies, and health goals
+
+🔍 How It Works
+User Profile Input:
+
+Collect user details like age, gender, weight, height, activity level, and dietary restrictions/preferences
+
+Calculate Nutritional Needs:
+
+Compute Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE)
+
+Adjust calorie needs according to goals (weight loss, maintenance, gain)
+
+Diet Plan Generation:
+
+Recommend macro-nutrient distribution (carbs, proteins, fats) based on diet type (e.g., keto, balanced)
+
+Suggest daily meal plans or food items aligned with calorie and macro targets
+
+Personalization:
+
+Customize recommendations based on preferences, allergies, and restrictions
+
+Include tips, recipes, or food substitutions
+
+Feedback Loop:
+
+Users can update progress and refine recommendations
+
+⚙️ Typical Workflow
+Gather user input (interactive form or API)
+
+Calculate nutritional targets using formulas (Mifflin-St Jeor, Harris-Benedict)
+
+Match food database items to meet macro and micronutrient goals
+
+Generate and present diet recommendations
+
+🧰 Common Tools & Libraries
+Data handling: pandas, numpy
+
+User input: streamlit, flask
+
+Nutrition databases: USDA FoodData Central API or custom food dataset
+
+Optimization: simple rule-based or linear programming (scipy.optimize) for macro distribution
+

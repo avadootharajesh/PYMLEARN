@@ -1,1 +1,23 @@
 # Flask_Frontend notes.txt
+📌 What’s the goal?
+Provide a user-friendly HTML form to input ML features
+
+Submit data to backend endpoint (the same Flask app or separate API)
+
+Display predictions and results dynamically on a webpage
+
+⚙️ How it works:
+Flask renders a form at / via GET
+
+On form submission (POST), Flask collects inputs
+
+Flask calls the ML model prediction function (or internal API)
+
+Shows prediction result on the same or a results page
+
+Why build this?
+Makes your ML model accessible to non-technical users
+
+Great for demos, prototypes, or quick validations
+
+Easily extendable with JS, styling, or other APIs

@@ -1,1 +1,35 @@
 Voice_Command_Recognition_App notes
+📌 What is Voice Command Recognition?
+System that processes spoken commands and translates them into actionable instructions
+
+Used in smart assistants, IoT devices, accessibility tools
+
+🔍 How It Works
+Audio Data Collection: Recordings of spoken commands
+
+Preprocessing: Convert audio to spectrogram or MFCC features
+
+Modeling: Train models like CNNs, RNNs, or transformers on audio features to classify commands
+
+Recognition: Convert live audio or uploaded files to commands
+
+Action Triggering: Perform actions based on recognized commands
+
+⚙️ Typical Workflow
+Collect labeled audio dataset (commands and labels)
+
+Extract features (MFCCs, Mel-spectrogram) using librosa
+
+Train classifier (e.g., CNN with tensorflow or pytorch)
+
+Deploy model to listen and classify incoming voice
+
+🧰 Common Tools & Libraries
+Audio: librosa, soundfile
+
+ML: tensorflow, keras, pytorch
+
+Deployment: Flask or FastAPI for serving model
+
+Recording: sounddevice or OS tools
+

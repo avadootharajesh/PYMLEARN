@@ -1,1 +1,47 @@
 Text_Summarization_Tool notes
+📌 What is Text Summarization?
+Automatic process of creating a concise and coherent summary from a longer text document
+
+Two main types:
+
+Extractive summarization: Selects important sentences/phrases directly from the text
+
+Abstractive summarization: Generates new sentences capturing the core meaning (like human-written summary)
+
+🔍 How It Works
+Input Text:
+
+Takes long articles, reports, or documents as input
+
+Text Preprocessing:
+
+Tokenization, stopword removal, sentence segmentation
+
+Summarization Techniques:
+
+Extractive: Score sentences by importance (TF-IDF, TextRank, LexRank) and select top ones
+
+Abstractive: Use deep learning models (Transformers like BART, T5) to generate summary
+
+Output Summary:
+
+Shortened text retaining key information and context
+
+⚙️ Typical Workflow
+Load and preprocess text
+
+For extractive: rank sentences and pick top N sentences
+
+For abstractive: pass text to pretrained transformer summarization model
+
+Return or display summary
+
+🧰 Common Tools & Libraries
+NLP: nltk, spacy (for preprocessing)
+
+Extractive summarization: sumy, networkx (for TextRank)
+
+Abstractive summarization: transformers (Hugging Face)
+
+Utilities: torch, tensorflow
+

@@ -1,1 +1,45 @@
 # Model_Deployment notes.txt
+📌 What is Model Deployment?
+Model Deployment refers to making a machine learning model available in production, so it can receive input data, perform inference, and return predictions in real time or batch.
+
+🔍 Deployment Types
+Type	Description	Use case
+Batch Deployment	Periodic offline predictions on large datasets	Reporting, data pipelines
+Real-time Deployment (Online)	Model served through REST APIs for instant prediction	Web apps, mobile apps
+Edge Deployment	Deploy on devices (IoT, mobile)	Offline, low-latency scenarios
+
+🧰 Common Tools & Platforms
+Flask/FastAPI/Django: Python-based API servers
+
+Docker: Containerize the app for portability
+
+Cloud services: AWS SageMaker, Azure ML, GCP AI Platform
+
+Model servers: TensorFlow Serving, TorchServe, MLflow
+
+Orchestration: Kubernetes, Airflow for pipelines
+
+⚙️ Steps to Deploy a Model (Typical Flow)
+Train & Serialize your model (pickle, joblib, ONNX)
+
+Build API to serve predictions (Flask, FastAPI)
+
+Containerize the app with Docker
+
+Test Locally to verify correctness
+
+Deploy to cloud/server (AWS EC2, Heroku, GCP, Azure)
+
+Monitor & Update model as needed
+
+📈 Best Practices
+Version your models
+
+Validate input data thoroughly
+
+Implement logging & monitoring
+
+Use CI/CD pipelines for smooth updates
+
+Ensure scalability (load balancing, caching)
+

@@ -1,1 +1,72 @@
-# Data_Cleaning notes.txt
+📌 What is Data Cleaning?
+Data cleaning (or data cleansing) is the process of detecting and correcting (or removing) corrupt, inaccurate, incomplete, duplicate, or irrelevant parts of the data and replacing, modifying, or deleting the dirty data.
+
+🧹 Common Data Cleaning Tasks
+Here’s what’s typically involved:
+
+1. Handling Missing Data
+Detect missing values (NaN, None, or blanks).
+
+Options:
+
+Remove rows/columns with missing data.
+
+Fill with mean/median/mode or custom value.
+
+Forward/Backward fill.
+
+Predict missing values.
+
+2. Removing Duplicates
+Identify and remove duplicated rows to avoid biased analysis.
+
+3. Fixing Data Types
+Ensure columns have correct types: int, float, string, datetime, etc.
+
+Convert where needed using astype() or pd.to_datetime().
+
+4. Handling Outliers
+Detect outliers using:
+
+IQR (Interquartile Range)
+
+Z-score
+
+Visuals (Boxplots, Scatterplots)
+
+Treat by capping, removing, or transforming.
+
+5. String Cleaning
+Remove special characters, whitespace, case standardization.
+
+Common operations: strip(), lower(), replace(), regex.
+
+6. Encoding Categorical Variables
+Convert text categories to numerical values using:
+
+Label Encoding
+
+One-Hot Encoding
+
+7. Renaming Columns
+Rename for clarity or uniformity using df.rename().
+
+8. Dropping Irrelevant Features
+Remove columns not useful for analysis or modeling.
+
+🛠 Tools Used
+Pandas – Core library for cleaning.
+
+NumPy – For handling numerical operations.
+
+Matplotlib / Seaborn – For visualizing outliers, missing values.
+
+🧠 Why is it Important?
+Bad data leads to bad models and incorrect insights. Clean data ensures:
+
+Accurate modeling.
+
+Better visualizations.
+
+Easier interpretation and presentation.
+

@@ -1,1 +1,38 @@
 # Recommendation_Systems notes.txt
+📌 What is a Recommendation System?
+A system that suggests items (products, movies, music, etc.) to users based on their preferences, behaviors, or item characteristics.
+
+🔍 Types of Recommendation Systems
+| Type                        | Description                                     | Examples                   |
+| --------------------------- | ----------------------------------------------- | -------------------------- |
+| **Content-Based Filtering** | Recommends items similar to those a user liked  | Based on item features     |
+| **Collaborative Filtering** | Recommends items liked by similar users         | User-item interaction data |
+| **Hybrid**                  | Combines both content and collaborative methods | Netflix, Amazon            |
+
+
+⚙️ Core Components
+User-Item Interaction Matrix: Typically sparse (users vs items)
+
+Similarity Measures: Cosine similarity, Pearson correlation
+
+Dimensionality Reduction: SVD, PCA for latent factors
+
+Algorithms: k-NN, matrix factorization, deep learning models
+
+🧰 Common Libraries
+surprise — easy collaborative filtering
+
+implicit — fast implicit feedback recommender
+
+scikit-learn — basic nearest neighbor methods
+
+lightfm — hybrid models with content + collaborative
+
+📝 Challenges
+Cold start problem (new users/items)
+
+Data sparsity
+
+Scalability with large datasets
+
+Evaluation metrics: Precision@k, Recall@k, MAP, RMSE

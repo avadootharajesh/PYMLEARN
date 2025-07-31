@@ -1,1 +1,37 @@
 Handwritten_Digit_Recognition_Web_App notes
+📌 What is Handwritten Digit Recognition?
+Automatically identifying handwritten digits (0-9) from images
+
+Classic ML/DL problem, often solved using MNIST dataset
+
+Useful for postal mail sorting, bank check processing, digitizing forms
+
+🔍 How It Works
+Dataset: MNIST database of 28x28 grayscale handwritten digits
+
+Preprocessing: Normalize pixel values, reshape input
+
+Model: CNN (Convolutional Neural Network) to extract spatial features and classify digits
+
+App Interface: Upload or draw digit images, predict digit class live
+
+Output: Display predicted digit with confidence score
+
+⚙️ Typical Workflow
+Train CNN model on MNIST dataset
+
+Save the trained model
+
+Create a web app (Streamlit, Flask) that lets users upload or draw digits
+
+Preprocess user input to match model requirements
+
+Display predicted digit with confidence
+
+🧰 Common Tools & Libraries
+Model training: tensorflow, keras
+
+UI: streamlit (easy web app) or flask (customizable backend)
+
+Image processing: PIL, opencv-python
+

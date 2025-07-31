@@ -1,1 +1,32 @@
 Fake_News_Detection_App notes
+📌 What is Fake News Detection?
+Classifying news articles or social media posts as real or fake (misinformation)
+
+Helps improve information reliability, reduces spread of false info
+
+🔍 How It Works
+Use labeled datasets of news articles (fake/real)
+
+Text preprocessing: clean, tokenize, remove stopwords
+
+Feature extraction: TF-IDF, word embeddings (Word2Vec, BERT)
+
+Train classifiers: Logistic Regression, SVM, Random Forest, or deep learning (LSTM, transformers)
+
+Evaluate with accuracy, precision, recall, F1-score
+
+⚙️ Key Challenges
+Highly imbalanced and noisy data
+
+Language nuances and sarcasm
+
+Need for domain knowledge and fact-checking
+
+Evolving misinformation tactics
+
+🧰 Common Datasets
+LIAR dataset
+
+FakeNewsNet
+
+Kaggle Fake News Challenge dataset

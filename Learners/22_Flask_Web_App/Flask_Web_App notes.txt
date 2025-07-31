@@ -1,1 +1,25 @@
 # Flask_Web_App notes.txt
+📌 What is Flask?
+A lightweight Python web framework
+
+Easy to set up, minimalistic and flexible
+
+Ideal for creating web APIs, dashboards, and simple websites
+
+Supports routing, templates (Jinja2), request handling
+
+🔍 Key Concepts in Flask
+Concept	Description
+App Object	Core Flask app instance
+Routes	URLs/endpoints mapped to Python functions
+Request	Incoming data (GET/POST, form data, JSON)
+Templates	HTML files rendered dynamically with data
+Static Files	CSS, JS, images served as assets
+Flask Extensions	Add-ons like Flask-WTF, Flask-Login, Flask-RESTful
+
+⚙️ Typical Flask App Structure
+/project
+  /static            # CSS, JS, images
+  /templates         # HTML templates (Jinja2)
+  app.py             # main Flask application
+  requirements.txt   # dependencies

@@ -1,1 +1,43 @@
-E-commerce_Product_Recommendation_Engine notes
+📌 What is a Product Recommendation Engine?
+A system that suggests relevant products to customers based on their behavior, preferences, and similarities with other users or items
+
+Helps increase engagement, sales, and customer satisfaction
+
+🔍 Types of Recommendation Systems
+Collaborative Filtering
+
+Uses user-item interaction data (ratings, purchases)
+
+User-based or item-based similarity
+
+Content-Based Filtering
+
+Uses product attributes and user profiles to recommend similar items
+
+Hybrid Systems
+
+Combine both approaches for better accuracy
+
+⚙️ Typical Workflow
+Data Collection: User purchase history, ratings, product metadata
+
+Data Preprocessing: Clean and format data
+
+Similarity Computation: Calculate user or item similarity (cosine similarity, Pearson correlation)
+
+Model Building: Generate recommendations based on nearest neighbors or matrix factorization
+
+Evaluation: Metrics like precision, recall, MAP, RMSE for rating prediction
+
+Deployment: Integrate into e-commerce platform for real-time recommendations
+
+🧰 Common Tools & Libraries
+pandas, numpy for data handling
+
+scikit-learn for similarity calculations
+
+surprise library for collaborative filtering algorithms
+
+lightfm for hybrid recommendation
+
+flask or fastapi for API deployment

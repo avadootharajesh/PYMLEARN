@@ -1,1 +1,31 @@
 Sentiment_Analysis_Dashboard notes
+E-commerce_Product_Recommendation_Engine notes
+📌 What is Sentiment Analysis?
+Automatically identifying the emotional tone (positive, negative, neutral) in text data
+
+Commonly applied to social media, reviews, customer feedback, etc.
+
+🔍 Why a Dashboard?
+Visualize sentiment trends over time
+
+Monitor customer opinions or brand reputation in real time
+
+Filter insights by categories or topics
+
+⚙️ Typical Workflow
+Data Collection: Tweets, reviews, comments, or any textual data stream
+
+Text Preprocessing: Clean text (remove noise, tokenize, lowercase)
+
+Sentiment Analysis: Use pre-trained models or lexicons (VADER, TextBlob, transformers)
+
+Aggregation: Calculate daily or hourly sentiment averages
+
+Visualization: Interactive charts showing sentiment distribution, trends, word clouds
+
+🧰 Common Tools & Libraries
+NLP: nltk, TextBlob, transformers, VADER
+
+Visualization: Dash (Plotly), Streamlit, Matplotlib, Seaborn
+
+Data: pandas for data manipulation

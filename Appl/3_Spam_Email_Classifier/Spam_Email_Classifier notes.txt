@@ -1,1 +1,32 @@
 Spam_Email_Classifier notes
+📌 What is Spam Email Classification?
+Automated process to identify unwanted or harmful emails (spam) vs legitimate ones (ham)
+
+Helps protect users from phishing, scams, and clutter
+
+🔍 How It Works
+Use labeled datasets of emails (spam/ham)
+
+Convert raw text into numerical features (text vectorization)
+
+Train classification algorithms (e.g., Naive Bayes, SVM, Random Forest, deep learning)
+
+Evaluate using accuracy, precision, recall, F1-score
+
+⚙️ Key Steps
+Data Collection: Common datasets — Enron Spam, SpamAssassin, UCI SMS Spam
+
+Data Cleaning: Remove noise (HTML tags, punctuation), lowercase, remove stopwords
+
+Feature Extraction: Bag-of-words, TF-IDF, word embeddings (Word2Vec, BERT)
+
+Model Training: Naive Bayes is a strong baseline for spam detection
+
+Evaluation: Confusion matrix, precision/recall are critical to avoid false positives
+
+🧰 Common Challenges
+Imbalanced datasets (spam usually minority)
+
+Evolving spam tactics (concept drift)
+
+Dealing with multi-lingual or obfuscated text

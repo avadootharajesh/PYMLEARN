@@ -1,1 +1,78 @@
 # ML_Algorithms notes.txt
+📌 What Are ML Algorithms?
+Machine Learning Algorithms are the mathematical engines behind predictive models.
+They learn patterns from data and make predictions or decisions without explicit programming.
+
+🔍 Categories of ML Algorithms
+🟦 Supervised Learning
+Input and output are known
+
+Learn mapping from X → Y
+| Task               | Algorithms                                                                |
+| ------------------ | ------------------------------------------------------------------------- |
+| **Classification** | Logistic Regression, SVM, Decision Trees, Random Forest, Naive Bayes, KNN |
+| **Regression**     | Linear Regression, Ridge/Lasso, SVR, Decision Trees, Random Forest        |
+
+
+🟨 Unsupervised Learning
+Only input is known
+
+Discover hidden patterns in data
+
+| Task                         | Algorithms                    |
+| ---------------------------- | ----------------------------- |
+| **Clustering**               | K-Means, DBSCAN, Hierarchical |
+| **Dimensionality Reduction** | PCA, t-SNE, UMAP              |
+
+
+🟥 Semi-Supervised Learning
+Mix of labeled and unlabeled data
+
+Self-training, pseudo-labeling
+
+🟩 Reinforcement Learning
+Agents learn actions by reward signals
+
+Commonly used :
+Algorithms: Q-learning, DQN, Policy Gradients
+
+| Algorithm                       | Intuition                                   |
+| ------------------------------- | ------------------------------------------- |
+| **Linear Regression**           | Fit a straight line (for regression)        |
+| **Logistic Regression**         | Predict probabilities between 0–1           |
+| **Decision Tree**               | Split data using feature thresholds         |
+| **Random Forest**               | Collection of decision trees (vote/average) |
+| **Gradient Boosting (XGBoost)** | Sequential trees improving errors           |
+| **KNN**                         | Classify by nearby neighbors                |
+| **Naive Bayes**                 | Bayes Theorem + independence assumption     |
+| **SVM**                         | Maximize margin between classes             |
+| **K-Means**                     | Cluster based on distance to centroids      |
+| **PCA**                         | Compress data using eigenvectors            |
+
+
+🧠 What to Consider When Choosing an Algorithm
+Size of the data
+
+Linearity of the problem
+
+Interpretability vs performance
+
+Speed of training vs inference
+
+Need for scalability or parallelism
+
+📊 Evaluation Metrics By Task
+| Algorithm                       | Intuition                                   |
+| ------------------------------- | ------------------------------------------- |
+| **Linear Regression**           | Fit a straight line (for regression)        |
+| **Logistic Regression**         | Predict probabilities between 0–1           |
+| **Decision Tree**               | Split data using feature thresholds         |
+| **Random Forest**               | Collection of decision trees (vote/average) |
+| **Gradient Boosting (XGBoost)** | Sequential trees improving errors           |
+| **KNN**                         | Classify by nearby neighbors                |
+| **Naive Bayes**                 | Bayes Theorem + independence assumption     |
+| **SVM**                         | Maximize margin between classes             |
+| **K-Means**                     | Cluster based on distance to centroids      |
+| **PCA**                         | Compress data using eigenvectors            |
+
+

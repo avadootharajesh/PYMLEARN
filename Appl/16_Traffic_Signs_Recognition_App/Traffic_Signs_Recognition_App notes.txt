@@ -1,1 +1,37 @@
 Traffic_Signs_Recognition_App notes
+📌 What is Traffic Signs Recognition?
+Automatically detecting and classifying traffic signs from images or video
+
+Critical for autonomous driving, driver assistance systems, and smart traffic management
+
+🔍 How It Works
+Data Collection: Images of traffic signs from datasets like GTSRB (German Traffic Sign Recognition Benchmark)
+
+Preprocessing: Resize images, normalize pixel values
+
+Model Training: Train CNN classifiers to recognize different traffic sign categories
+
+Prediction: Input new images or frames, predict sign type
+
+Integration: Embed in apps or vehicles for real-time sign recognition
+
+⚙️ Typical Workflow
+Download and preprocess traffic signs dataset (e.g., GTSRB)
+
+Train CNN model on labeled traffic sign images
+
+Test model accuracy on validation data
+
+Build app interface to upload or capture sign images
+
+Show predicted traffic sign class and confidence
+
+🧰 Common Tools & Libraries
+Deep learning: tensorflow, keras, pytorch
+
+Image processing: opencv-python, PIL
+
+Dataset: GTSRB (available publicly)
+
+Web/App frameworks: Streamlit, Flask
+

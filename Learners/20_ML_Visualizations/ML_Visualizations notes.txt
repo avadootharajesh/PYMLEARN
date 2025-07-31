@@ -1,1 +1,38 @@
 # ML_Visualizations notes.txt
+📌 What are ML Visualizations?
+Graphical representations that help understand data distributions, relationships, model behavior, and performance.
+
+🔍 Common Visualization Types
+Visualization Type	Purpose	Examples/Tools
+Data Exploration	Understand raw data distribution & patterns	Histograms, Boxplots, Scatter plots (matplotlib, seaborn)
+Feature Relationships	Show correlations and interactions	Pairplots, Heatmaps, Correlation matrices
+Model Performance	Evaluate models and tune parameters	ROC Curve, Precision-Recall Curve, Confusion Matrix
+Model Interpretability	Explain model decisions	SHAP, LIME, Partial Dependence Plots
+Training Process	Monitor training dynamics	Loss curves, Accuracy curves
+
+⚙️ Popular Visualization Libraries
+Matplotlib: Base plotting library for Python
+
+Seaborn: Statistical data visualization built on matplotlib
+
+Plotly: Interactive plots for web-based visualization
+
+Yellowbrick: ML-specific visualizations like confusion matrix, residual plots
+
+SHAP & LIME: Model explainability visualizations
+
+🧰 Examples of Useful Plots
+Histograms & KDE: Distribution of features
+
+Boxplots: Detect outliers
+
+Scatter plots: Feature relationships and clusters
+
+Heatmaps: Correlation matrices
+
+Confusion Matrix: Classification results
+
+ROC Curve: Classifier performance at various thresholds
+
+Learning Curves: Model training and validation error over epochs
+

@@ -1,1 +1,48 @@
 # Hyperparameter_Tuning notes.txt
+📌 What Is Hyperparameter Tuning?
+Hyperparameters are settings set before training a model (unlike learned parameters like weights in regression or neural networks).
+Tuning is the process of finding the optimal combination of these values to maximize model performance.
+
+🧠 Common Hyperparameters by Model
+Model	Hyperparameters
+Decision Tree	max_depth, min_samples_split
+Random Forest	n_estimators, max_features, max_depth
+SVM	C, kernel, gamma
+KNN	n_neighbors, weights, metric
+Gradient Boosting/XGB	learning_rate, n_estimators, max_depth
+
+🧰 Tuning Methods
+1. Grid Search
+Tries all combinations of specified hyperparameters
+
+Exhaustive but slow
+
+python
+Copy
+Edit
+from sklearn.model_selection import GridSearchCV
+2. Random Search
+Tries a random subset of the parameter space
+
+Faster, less exhaustive
+
+python
+Copy
+Edit
+from sklearn.model_selection import RandomizedSearchCV
+3. Bayesian Optimization / Optuna
+Smart sampling using past results (advanced)
+
+Libraries: Optuna, Hyperopt, BayesianOptimization
+
+⚙️ Key Concepts
+Cross-validation is used within tuning (cv=5 commonly)
+
+Use scoring metrics like 'accuracy', 'f1', 'neg_mean_squared_error' depending on the task
+
+Avoid overfitting by tuning on validation data, not test data
+
+📈 Why It Matters
+Models with default settings are rarely optimal
+
+Tuning can drastically improve performance (especially for tree-based and ensemble models)

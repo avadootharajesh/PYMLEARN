@@ -1,1 +1,56 @@
 # Classification_Models notes.txt
+📌 What is Classification?
+Classification is a type of supervised learning where the goal is to predict the category or class of an observation based on input features.
+
+🎯 Common Use Cases
+Spam detection (spam / not spam)
+
+Disease diagnosis (positive / negative)
+
+Customer churn (churn / no churn)
+
+Image classification (cat / dog / car / etc.)
+
+🧠 Popular Classification Algorithms
+Algorithm	Description
+Logistic Regression	Linear model for binary classification
+K-Nearest Neighbors (KNN)	Classifies based on closest points
+Decision Tree	Splits data using feature thresholds
+Random Forest	Ensemble of decision trees
+Naive Bayes	Based on Bayes theorem with strong independence assumptions
+Support Vector Machine (SVM)	Finds the optimal boundary (hyperplane) between classes
+Gradient Boosting / XGBoost / LightGBM	Powerful ensemble models used in production
+
+⚙️ Key Steps in Classification
+Load and preprocess data
+
+Split data into train and test sets
+
+Choose model and train it
+
+Make predictions
+
+Evaluate performance
+
+📈 Evaluation Metrics
+Metric	Use
+Accuracy	Overall correctness
+Precision	Correct positives / all predicted positives
+Recall (Sensitivity)	Correct positives / all actual positives
+F1 Score	Harmonic mean of precision and recall
+Confusion Matrix	Breakdown of TP, TN, FP, FN
+ROC AUC Score	Trade-off between TPR and FPR
+
+📊 Visualization Tools
+Confusion matrix heatmap
+
+ROC curve
+
+Precision-recall curve
+
+✅ Important Notes
+Always scale features for SVM, KNN, and Logistic Regression.
+
+Use StratifiedKFold for imbalanced classification.
+
+Try multiple models and compare using cross-validation.

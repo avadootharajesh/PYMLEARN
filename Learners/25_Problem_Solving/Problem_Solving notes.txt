@@ -1,1 +1,42 @@
 # Problem_Solving notes.txt
+📌 What is Problem Solving?
+Systematic process to understand a problem, design a solution, implement it, and validate results — all within the context of data and algorithms.
+
+🔍 Key Steps in Data Science Problem Solving
+| Step                                 | Description                                                                                                                   |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| **1. Understand the Problem**        | Clarify the business or research objective, constraints, and deliverables. Ask: What’s the question? What success looks like? |
+| **2. Data Collection & Exploration** | Gather relevant data, explore it, check quality, and understand features.                                                     |
+| **3. Data Cleaning & Preprocessing** | Handle missing values, outliers, format issues, and transform data as needed.                                                 |
+| **4. Feature Engineering**           | Create or select meaningful features that improve model learning.                                                             |
+| **5. Model Selection & Training**    | Choose appropriate algorithms and train models using the prepared data.                                                       |
+| **6. Evaluation**                    | Measure performance using relevant metrics and validate results thoroughly.                                                   |
+| **7. Interpretation & Insights**     | Translate model output into actionable insights or decisions.                                                                 |
+| **8. Deployment & Monitoring**       | Put the solution into production and monitor over time for accuracy and relevance.                                            |
+
+
+🧠 Problem-Solving Techniques & Tips
+Break down complex problems into smaller, manageable tasks
+
+Use hypothesis-driven approach: Formulate assumptions, test with data
+
+Apply iterative development: Build quick prototypes, improve step-by-step
+
+Use visualizations to gain insights and validate assumptions
+
+Always question data quality and biases
+
+Document your approach and decisions for reproducibility
+
+Collaborate and seek feedback from domain experts
+
+🧰 Tools to Aid Problem Solving
+Jupyter notebooks for exploration and prototyping
+
+Version control (Git) for tracking experiments
+
+Automated testing for code reliability
+
+Experiment tracking (MLflow, Weights & Biases)
+
+Visualization libraries (matplotlib, seaborn, Plotly)

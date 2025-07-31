@@ -1,1 +1,50 @@
 # Real_World_Datasets notes.txt
+
+📌 What are Real World Datasets?
+Datasets collected from actual environments — business, healthcare, finance, social media, sensors, etc. — often messy, complex, and large-scale.
+
+🔍 Characteristics
+Noisy & Incomplete: Missing values, errors, inconsistent formatting
+
+High Dimensionality: Many features, sometimes irrelevant
+
+Unbalanced Classes: Some categories underrepresented
+
+Heterogeneous: Mixed types (numerical, categorical, text, images)
+
+Large Scale: Millions of rows or gigabytes of data
+
+⚙️ Importance
+Train models that generalize well
+
+Realistic evaluation of algorithms
+
+Insights that can impact real decisions
+
+Benchmarking performance on common tasks
+
+🧰 Popular Sources for Real World Datasets
+| Source                     | Description                    | Link                                                                                                       |
+| -------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Kaggle**                 | Competitions + public datasets | [https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)                                         |
+| **UCI ML Repository**      | Classic ML datasets            | [https://archive.ics.uci.edu/ml/index.php](https://archive.ics.uci.edu/ml/index.php)                       |
+| **Google Dataset Search**  | Search engine for datasets     | [https://datasetsearch.research.google.com](https://datasetsearch.research.google.com)                     |
+| **AWS Open Data Registry** | Large open datasets on AWS     | [https://registry.opendata.aws](https://registry.opendata.aws)                                             |
+| **Government Portals**     | Open data from governments     | ex: [https://data.gov](https://data.gov) (US), [https://data.gov.uk](https://data.gov.uk) (UK)             |
+| **Image Datasets**         | CIFAR-10, ImageNet, COCO, etc. | [https://www.image-net.org](https://www.image-net.org), [https://cocodataset.org](https://cocodataset.org) |
+
+
+🔧 Tips for Working with Real World Datasets
+Spend significant time on Data Cleaning & Preprocessing
+
+Understand data collection process and domain context
+
+Use sampling if dataset is too big initially
+
+Handle missing data with imputation or domain knowledge
+
+Feature engineering is crucial to capture important signals
+
+Visualize data for anomalies and patterns
+
+Use stratified splits for classification tasks to handle class imbalance

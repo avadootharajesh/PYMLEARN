@@ -1,1 +1,40 @@
 Image_Classification_Web_App_e.g.,_Dog_vs_Cat notes
+📌 What is Image Classification?
+Assigning a label/category (e.g., dog or cat) to an input image based on its visual content
+
+A fundamental problem in computer vision
+
+🔍 Dog vs Cat Classification Task
+Classic binary image classification problem
+
+Dataset example: Kaggle Dogs vs Cats dataset (~25k images)
+
+Goal: Build a model that predicts whether an image contains a dog or a cat
+
+⚙️ Typical Workflow
+Dataset Preparation: Download, label, and preprocess images (resize, normalize)
+
+Model Selection: CNN architectures like VGG, ResNet, MobileNet for feature extraction
+
+Training: Train model on labeled images, validate accuracy
+
+Evaluation: Measure accuracy, precision, recall, confusion matrix
+
+Web App: Allow users to upload an image and get instant prediction
+
+🧰 Common Tools & Libraries
+Deep Learning: tensorflow, keras, pytorch
+
+Image Processing: PIL, opencv-python
+
+Web Frameworks: Streamlit, Flask
+
+Utilities: numpy, matplotlib
+
+🧠 Model Notes
+Use pretrained models (transfer learning) for faster and better results
+
+Freeze convolutional layers, fine-tune final dense layers for binary classification
+
+Input image size often 224x224 or 150x150
+

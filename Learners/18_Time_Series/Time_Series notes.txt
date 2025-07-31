@@ -1,1 +1,45 @@
 # Time_Series notes.txt
+📌 What is Time Series Data?
+A sequence of data points indexed (or listed) in time order — typically equally spaced time intervals like seconds, days, months.
+
+🔍 Characteristics
+Temporal dependency: Past values influence future values
+
+Trend: Long-term increase or decrease
+
+Seasonality: Repeating patterns over fixed periods (daily, yearly)
+
+Noise: Random variation or irregular fluctuations
+
+Stationarity: Statistical properties (mean, variance) constant over time
+
+⚙️ Common Tasks in Time Series
+| Task                    | Description                                | Techniques/Models                                      |
+| ----------------------- | ------------------------------------------ | ------------------------------------------------------ |
+| **Forecasting**         | Predict future values                      | ARIMA, SARIMA, Exponential Smoothing, LSTM             |
+| **Decomposition**       | Separate trend, seasonality, and residuals | STL, Classical decomposition                           |
+| **Anomaly Detection**   | Detect unusual points                      | Statistical tests, Isolation Forest, LSTM Autoencoders |
+| **Smoothing**           | Remove noise for clearer patterns          | Moving average, EWMA                                   |
+| **Feature Engineering** | Extract features like lag, rolling mean    | Lag variables, rolling stats                           |
+
+🧰 Popular Libraries
+pandas: Handling time-indexed data
+
+statsmodels: Classical time series models (ARIMA, SARIMA)
+
+prophet: Facebook’s forecasting tool, easy and powerful
+
+tsfresh: Automated feature extraction
+
+sktime: Toolkit for time series ML
+
+TensorFlow / PyTorch: Deep learning for sequences (RNN, LSTM)
+
+⚙️ Important Concepts
+Autocorrelation Function (ACF): Correlation of series with its lagged values
+
+Partial Autocorrelation Function (PACF): Correlation removing effects of shorter lags
+
+Stationarity Tests: Augmented Dickey-Fuller (ADF) test
+
+Cross-validation: Time-series split preserving order

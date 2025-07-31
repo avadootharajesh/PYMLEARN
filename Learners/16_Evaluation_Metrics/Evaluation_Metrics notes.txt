@@ -1,1 +1,31 @@
 # Evaluation_Metrics notes.txt
+📌 What are Evaluation Metrics?
+Quantitative measures used to assess the performance of machine learning models, helping to compare models and tune hyperparameters.
+
+🔍 Metrics by Task
+| Task                            | Common Metrics                                 | Description                                                                                                                                                       |
+| ------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Classification**              | Accuracy, Precision, Recall, F1-Score, ROC-AUC | Accuracy = correct predictions / total; Precision = TP / (TP+FP); Recall = TP / (TP+FN); F1 = harmonic mean of precision & recall; ROC-AUC = area under ROC curve |
+| **Regression**                  | MAE, MSE, RMSE, R²                             | MAE = mean absolute error; MSE = mean squared error; RMSE = sqrt(MSE); R² = variance explained                                                                    |
+| **Clustering**                  | Silhouette Score, Davies-Bouldin Index         | Measures cluster cohesion and separation                                                                                                                          |
+| **Ranking/Recommender Systems** | Precision\@k, Recall\@k, MAP, NDCG             | Evaluate quality of ranked predictions                                                                                                                            |
+
+
+⚙️ Confusion Matrix Components (for Classification)
+|                 | Predicted Positive  | Predicted Negative  |
+| --------------- | ------------------- | ------------------- |
+| Actual Positive | True Positive (TP)  | False Negative (FN) |
+| Actual Negative | False Positive (FP) | True Negative (TN)  |
+
+
+🧰 How to Choose Metrics?
+Use accuracy for balanced data and simple understanding
+
+Use precision/recall/F1 when classes are imbalanced or costs differ
+
+Use ROC-AUC for overall ranking quality
+
+Use MAE/MSE/RMSE for regression error magnitude
+
+Use domain knowledge to interpret metric importance
+

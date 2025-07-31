@@ -1,1 +1,41 @@
 Resume_Screening_Bot notes
+📌 What is a Resume Screening Bot?
+An automated system that parses resumes and evaluates candidates based on job requirements
+
+Saves recruiters time by filtering out unqualified candidates early
+
+Often uses NLP techniques to extract skills, experience, education, and match with job criteria
+
+🔍 How It Works
+Resume Parsing: Extract text and structured info from PDF, DOCX, or TXT resumes
+
+Text Preprocessing: Clean and tokenize extracted text
+
+Feature Extraction: Identify keywords, skills, years of experience, education level
+
+Matching & Scoring: Compare candidate profile to job requirements using similarity metrics or classifiers
+
+Ranking: Rank resumes by relevance score for recruiters
+
+⚙️ Typical Workflow
+Input: Collection of resumes + job description
+
+Parsing: Use libraries like PyPDF2, pdfminer, docx, or resume-specific parsers
+
+NLP Processing: Extract key entities (skills, experience) using regex, NLP libraries or pretrained models
+
+Matching: Vectorize job description and resumes using TF-IDF or embeddings, compute similarity
+
+Output: List of top matching resumes or a decision (accept/reject)
+
+🧰 Tools & Libraries
+PyPDF2, pdfminer.six for PDF parsing
+
+python-docx for DOCX files
+
+spaCy, NLTK for NLP
+
+scikit-learn for vectorization and similarity
+
+Optional: pretrained transformer models like BERT for semantic matching
+

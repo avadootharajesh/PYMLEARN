@@ -1,1 +1,27 @@
 # NLP_Techniques notes.txt
+📌 What is NLP?
+NLP is the field focused on enabling machines to understand, interpret, and generate human language.
+
+🔍 Key NLP Tasks & Techniques
+| Task                               | Description                        | Common Techniques                                                    |
+| ---------------------------------- | ---------------------------------- | -------------------------------------------------------------------- |
+| **Text Preprocessing**             | Cleaning and normalizing text      | Tokenization, lowercasing, stopword removal, stemming, lemmatization |
+| **Text Representation**            | Convert text to numerical features | Bag of Words, TF-IDF, Word Embeddings (Word2Vec, GloVe, FastText)    |
+| **Language Modeling**              | Predict next word/token            | n-grams, RNNs, Transformers (BERT, GPT)                              |
+| **Text Classification**            | Categorize text documents          | Logistic Regression, SVM, deep learning (CNN, LSTM)                  |
+| **Named Entity Recognition (NER)** | Extract entities from text         | Conditional Random Fields, Transformers                              |
+| **Sentiment Analysis**             | Determine sentiment polarity       | Lexicon-based or supervised ML models                                |
+| **Machine Translation**            | Translate text between languages   | Sequence-to-sequence models, Transformers                            |
+| **Topic Modeling**                 | Discover topics in text corpus     | LDA, NMF                                                             |
+
+
+⚙️ Popular NLP Libraries
+NLTK: Classic NLP tasks and datasets
+
+spaCy: Industrial-strength NLP with fast pipelines
+
+Transformers (Huggingface): State-of-the-art pretrained models
+
+Gensim: Topic modeling and word embeddings
+
+TextBlob: Simple API for common NLP tasks

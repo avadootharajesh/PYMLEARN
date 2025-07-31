@@ -1,1 +1,36 @@
 Stock_Market_Trend_Analyzer notes
+📌 What is Stock Market Trend Analysis?
+Analyzing historical stock price data to identify upward/downward trends
+
+Helps investors make informed decisions on buying or selling stocks
+
+🔍 Goals of Trend Analysis
+Detect short-term or long-term price movements
+
+Predict future price directions or volatility
+
+Identify support/resistance levels and patterns (e.g., moving averages, MACD)
+
+⚙️ Typical Workflow
+Data Collection: Historical stock prices (open, high, low, close, volume) from sources like Yahoo Finance
+
+Data Preprocessing: Handle missing data, adjust for splits/dividends
+
+Feature Engineering: Calculate technical indicators (SMA, EMA, RSI, MACD, Bollinger Bands)
+
+Visualization: Candlestick charts, trend lines, volume plots
+
+Modeling: Time series forecasting models (ARIMA, LSTM, Prophet) or classification models to predict trend direction
+
+Evaluation: Accuracy of trend prediction, RMSE for price forecasting
+
+🧰 Common Tools & Libraries
+yfinance or pandas_datareader for data
+
+ta-lib or pandas_ta for technical indicators
+
+matplotlib & plotly for visualization
+
+statsmodels, prophet for forecasting
+
+tensorflow / pytorch for deep learning models

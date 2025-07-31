@@ -1,1 +1,44 @@
 Movie_Recommendation_System notes
+📌 What is a Movie Recommendation System?
+A system that suggests movies to users based on their preferences or behavior
+
+Helps users discover content tailored to their tastes
+
+Enhances user engagement and satisfaction
+
+🔍 Types of Recommendation Systems
+Type	Description	Pros	Cons
+Collaborative Filtering	Uses user-item interactions (ratings, views) to recommend similar items/users	No domain knowledge needed	Suffers from cold-start problems
+Content-Based Filtering	Recommends movies similar to what the user liked based on movie features (genre, director)	Works well for new users	Limited to item features
+Hybrid Systems	Combines collaborative and content-based methods	Leverages best of both	More complex to implement
+
+⚙️ Typical Workflow
+Data Collection: User ratings, movie metadata (genres, actors, directors), user profiles
+
+Data Preprocessing: Handling missing data, encoding categorical features
+
+Exploratory Data Analysis: Understand rating distributions, popular genres
+
+Model Building:
+
+Collaborative Filtering (Matrix Factorization, kNN)
+
+Content-Based (TF-IDF, cosine similarity)
+
+Hybrid approaches
+
+Evaluation: RMSE, MAE, Precision@K, Recall@K, or ranking metrics like MAP, NDCG
+
+Deployment: API or UI integration for personalized recommendations
+
+🧰 Popular Libraries & Tools
+surprise — easy-to-use collaborative filtering
+
+scikit-learn — feature extraction, similarity metrics
+
+pandas & numpy — data handling
+
+implicit — for implicit feedback data
+
+lightfm — hybrid recommendation
+

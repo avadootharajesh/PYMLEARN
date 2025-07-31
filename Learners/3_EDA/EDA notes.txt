@@ -1,1 +1,76 @@
 # EDA notes.txt
+📌 What is EDA?
+Exploratory Data Analysis (EDA) is the process of analyzing datasets to summarize their main characteristics, often using visual methods. It helps you understand:
+
+What data you’re working with
+
+What patterns and relationships exist
+
+What problems (like outliers, errors, or biases) may be present
+
+🧰 Core EDA Steps
+1. Understand the Dataset Structure
+Shape of data (df.shape)
+
+Column types (df.dtypes)
+
+Sample rows (df.head() / df.tail())
+
+2. Summary Statistics
+Central tendency (mean, median)
+
+Spread (standard deviation, variance, IQR)
+
+Using df.describe()
+
+3. Missing Values Check
+Count missing values per column
+
+Visualize missingness using libraries like missingno
+
+4. Univariate Analysis
+Distribution of individual variables
+
+For numerical: histograms, boxplots, KDE plots
+
+For categorical: bar plots, value counts
+
+5. Bivariate/Multivariate Analysis
+Relationships between features
+
+Scatter plots, pair plots, correlation matrix
+
+Group-based aggregations (groupby())
+
+6. Outlier Detection
+Boxplots
+
+Z-score, IQR-based filtering
+
+7. Correlation Analysis
+Pearson/Spearman correlation
+
+Visualized via heatmap
+
+8. Target Variable Distribution (if supervised learning)
+Class imbalance check (for classification)
+
+Distribution of target values
+
+📊 Visualization Tools
+matplotlib
+
+seaborn
+
+pandas.plot()
+
+missingno
+
+🧠 Why is EDA Important?
+Reveals structure, patterns, and anomalies
+
+Informs data cleaning and preprocessing
+
+Aids in selecting features and models
+
+Essential for avoiding bad assumptions

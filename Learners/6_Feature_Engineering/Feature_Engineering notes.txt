@@ -1,1 +1,60 @@
 # Feature_Engineering notes.txt
+📌 What is Feature Engineering?
+Feature engineering is the process of transforming raw data into meaningful features that improve model performance.
+It bridges the gap between raw data and machine learning algorithms.
+
+🧰 Key Types of Feature Engineering
+1. Feature Creation
+Combine existing features (e.g., BMI = weight / height²)
+
+Extract parts from features (e.g., extract month from a date)
+
+Interaction terms (e.g., product of two features)
+
+2. Encoding Categorical Features
+Label Encoding (ordinal): low < medium < high
+
+One-Hot Encoding (nominal): separate binary columns
+
+3. Discretization / Binning
+Convert continuous features into discrete buckets
+
+e.g., age → child / adult / senior
+
+4. Handling Date/Time Features
+Extract features like year, month, weekday, hour
+
+Compute time deltas (e.g., time since last purchase)
+
+5. Text Feature Engineering
+Count vectorization (word counts)
+
+TF-IDF (importance-based weights)
+
+Text length, number of words, punctuation usage
+
+6. Scaling and Normalization
+StandardScaler: mean = 0, std = 1
+
+MinMaxScaler: scales to [0, 1]
+
+Required for models like SVM, KNN, Logistic Regression
+
+7. Dimensionality Reduction
+PCA (Principal Component Analysis)
+
+UMAP / t-SNE (for visualization)
+
+8. Feature Selection
+SelectKBest, Recursive Feature Elimination (RFE)
+
+Tree-based feature importance
+
+🧠 Why is it Important?
+Better features = better model performance
+
+Reduces overfitting
+
+Makes models more interpretable
+
+Enables use of simpler models

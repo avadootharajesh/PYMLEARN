@@ -1,1 +1,47 @@
 # Image_Classification notes.txt
+📌 What is Image Classification?
+Assigning a category (label) to an image from a predefined set of classes. Example: classifying images of cats vs dogs.
+
+🔍 Key Concepts
+Input: Raw images (RGB, grayscale)
+
+Output: Class probabilities or labels
+
+Feature Extraction: Using filters/kernels (in CNNs) to detect edges, shapes, textures
+
+Model: Usually Convolutional Neural Networks (CNNs) dominate this task
+
+Evaluation: Accuracy, Precision, Recall, F1-score, Confusion matrix
+
+⚙️ Popular CNN Architectures
+| Architecture | Description                     | Notes                        |
+| ------------ | ------------------------------- | ---------------------------- |
+| LeNet        | Early CNN (handwritten digits)  | Simple, small                |
+| AlexNet      | Deeper, won ImageNet challenge  | ReLU, Dropout introduced     |
+| VGGNet       | Very deep, uniform 3x3 filters  | Simple but heavy             |
+| ResNet       | Residual connections, very deep | Avoids vanishing gradient    |
+| Inception    | Multi-scale convolutions        | Efficient and accurate       |
+| EfficientNet | Scaling depth/width/resolution  | State-of-the-art performance |
+
+
+🧰 Popular Libraries & Tools
+TensorFlow / Keras: High-level APIs to build/train CNNs
+
+PyTorch: Flexible, popular for research & deployment
+
+OpenCV: Image pre-processing & augmentation
+
+Pretrained Models: Use transfer learning to leverage large datasets (ImageNet)
+
+⚙️ Image Classification Pipeline
+Data Collection (images + labels)
+
+Preprocessing (resize, normalize, augment)
+
+Model Selection (CNN architectures or transfer learning)
+
+Training (optimize weights on training data)
+
+Evaluation (test on unseen images)
+
+Deployment (serve model for real-time predictions)

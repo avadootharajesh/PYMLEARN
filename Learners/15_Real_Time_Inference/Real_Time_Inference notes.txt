@@ -1,1 +1,45 @@
 # Real_Time_Inference notes.txt
+📌 What is Real-Time Inference?
+The process of using a trained machine learning model to make predictions immediately as new data arrives, typically via an API or streaming pipeline.
+
+🔍 Key Features
+Low latency: Predictions must be fast (milliseconds to seconds)
+
+High throughput: Can handle many requests per second
+
+Scalable: Supports scaling horizontally/vertically to handle load
+
+Robust & reliable: Handles failures gracefully
+
+Stateless or Stateful: Usually stateless for scalability
+
+⚙️ Common Architectures
+| Architecture         | Description                                    | Examples                                    |
+| -------------------- | ---------------------------------------------- | ------------------------------------------- |
+| **REST API Serving** | Model exposed via web API endpoints            | Flask, FastAPI, TensorFlow Serving          |
+| **gRPC Serving**     | High performance RPC communication             | TensorFlow Serving, Triton Inference Server |
+| **Streaming**        | Data streams processed in real time            | Apache Kafka + Spark Streaming              |
+| **Edge Inference**   | Model deployed on device for local inferencing | Mobile apps, IoT devices                    |
+
+
+🧰 Tools & Frameworks
+Flask / FastAPI — simple APIs for model serving
+
+TensorFlow Serving / TorchServe — dedicated model servers
+
+NVIDIA Triton Inference Server — scalable GPU-based serving
+
+AWS Lambda / Azure Functions — serverless real-time inference
+
+Kafka / Flink / Spark Streaming — real-time data stream processing
+
+⚙️ Best Practices
+Optimize model size & complexity for latency
+
+Use batch inference for micro-batching if applicable
+
+Cache frequent predictions if possible
+
+Monitor latency and error rates
+
+Secure APIs with authentication and rate limiting
